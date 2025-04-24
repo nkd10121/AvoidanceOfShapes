@@ -2,8 +2,8 @@
 #include <list> 
 #include <memory>
 #include <windows.h>
-#include "../SoundManager.h"
-#include "../GraphManager.h"
+#include "SoundManager.h"
+#include "GraphManager.h"
 
 class Input;
 class Scene;
