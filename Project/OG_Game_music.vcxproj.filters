@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Object\Enemy\Circle\EnemyBurst.cpp">
+      <Filter>Object\Enemy\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Enemy\Circle\EnemyBurstedCircle.cpp">
+      <Filter>Object\Enemy\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Enemy\Circle\EnemyCircle.cpp">
+      <Filter>Object\Enemy\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Enemy\Circle\EnemyCircleBase.cpp">
+      <Filter>Object\Enemy\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Enemy\Circle\EnemyCircleScaling.cpp">
+      <Filter>Object\Enemy\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Enemy\Line\EnemyLineBase.cpp">
+      <Filter>Object\Enemy\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Enemy\Line\EnemyLineDown.cpp">
+      <Filter>Object\Enemy\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Enemy\Line\EnemyLineFromLeft.cpp">
+      <Filter>Object\Enemy\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Enemy\Line\EnemyLineFromRight.cpp">
+      <Filter>Object\Enemy\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Enemy\Line\EnemyLineFromUpper.cpp">
+      <Filter>Object\Enemy\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Enemy\Line\EnemyBox.cpp">
+      <Filter>Object\Enemy\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Player\Player.cpp">
+      <Filter>Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Goal.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Efect\AfterImagePlayer.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Efect\DashEfect.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Efect\Efects.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Efect\GoalEfect.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Efect\HitEfect.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\GraphManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\SoundManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="MyDraw\DrawBGparts.cpp">
+      <Filter>MyDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="MyDraw\DrawRotationCirlce.cpp">
+      <Filter>MyDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GameoverScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\OptionScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\PauseScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SceneManager.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\StageSelect.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\TitleScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Stage\StageTutorial.cpp">
+      <Filter>Scene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Stage\StageBase.cpp">
+      <Filter>Scene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Stage\Stage2.cpp">
+      <Filter>Scene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Stage\Stage1.cpp">
+      <Filter>Scene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Application.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Col.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Input.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Vec2.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Object\Enemy\Circle\EnemyBurst.h">
+      <Filter>Object\Enemy\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Enemy\Circle\EnemyBurstedCircle.h">
+      <Filter>Object\Enemy\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Enemy\Circle\EnemyCircle.h">
+      <Filter>Object\Enemy\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Enemy\Circle\EnemyCircleBase.h">
+      <Filter>Object\Enemy\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Enemy\Circle\EnemyCircleScaling.h">
+      <Filter>Object\Enemy\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Enemy\Line\EnemyLineBase.h">
+      <Filter>Object\Enemy\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Enemy\Line\EnemyLineDown.h">
+      <Filter>Object\Enemy\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Enemy\Line\EnemyLineFromLeft.h">
+      <Filter>Object\Enemy\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Enemy\Line\EnemyLineFromRight.h">
+      <Filter>Object\Enemy\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Enemy\Line\EnemyLineFromUpper.h">
+      <Filter>Object\Enemy\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Enemy\Line\EnemyBox.h">
+      <Filter>Object\Enemy\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Player\Player.h">
+      <Filter>Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Goal.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Efect\AfterImagePlayer.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Efect\DashEfect.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Efect\Efects.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Efect\GoalEfect.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Efect\HitEfect.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\GraphManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\SoundManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDraw\DrawRotationCirlce.h">
+      <Filter>MyDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDraw\DrawBGparts.h">
+      <Filter>MyDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\GameoverScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\OptionScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\PauseScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SceneManager.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\StageSelect.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\TitleScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Stage\StageTutorial.h">
+      <Filter>Scene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Stage\StageBase.h">
+      <Filter>Scene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Stage\Stage2.h">
+      <Filter>Scene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Stage\Stage1.h">
+      <Filter>Scene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Application.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Col.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Game.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Input.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Vec2.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+    <ResourceCompile Include="OG_Game_music.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object">
+      <UniqueIdentifier>{3c5ff80e-a47b-497d-ac0e-4f1fd112a606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Player">
+      <UniqueIdentifier>{4a5e7ee5-d225-4284-9399-30df27812927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Enemy">
+      <UniqueIdentifier>{e15781b1-7c2c-4588-a898-d482d72a7f35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Enemy\Line">
+      <UniqueIdentifier>{111a3ed1-2299-41a0-b2c9-4569dc40186d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Enemy\Circle">
+      <UniqueIdentifier>{259a7d1c-e324-4d74-b6cb-89ed25ccd335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect">
+      <UniqueIdentifier>{7772fbf2-b692-4dba-9b4c-0f6ac06c998c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{e5987816-7854-4d44-9087-4f74e7313df6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyDraw">
+      <UniqueIdentifier>{893ea9a1-42c1-4a47-81ae-4e1ca932983e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{b354159a-8da6-4c7d-9df8-2ccbb62b5098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Stage">
+      <UniqueIdentifier>{2b5da6d7-5788-4fc9-a71f-dc89ffe7b939}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{407773f5-772a-47cc-8abb-8670b205223b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

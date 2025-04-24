@@ -153,7 +153,6 @@
     <ClCompile Include="Scene\Stage\Stage1.cpp" />
     <ClCompile Include="Manager\SoundManager.cpp" />
     <ClCompile Include="Scene\Stage\StageTutorial.cpp" />
-    <ClCompile Include="Scene\Stage\Stage3.cpp" />
     <ClCompile Include="Util\Col.cpp" />
     <ClCompile Include="MyDraw\DrawRotationCirlce.cpp" />
     <ClCompile Include="Object\Enemy\Circle\EnemyBurstedCircle.cpp" />
@@ -194,7 +193,6 @@
     <ClInclude Include="Scene\Stage\Stage1.h" />
     <ClInclude Include="Manager\SoundManager.h" />
     <ClInclude Include="Scene\Stage\StageTutorial.h" />
-    <ClInclude Include="Scene\Stage\Stage3.h" />
     <ClInclude Include="Util\Col.h" />
     <ClInclude Include="MyDraw\DrawRotationCirlce.h" />
     <ClInclude Include="Object\Enemy\Circle\EnemyBurstedCircle.h" />
