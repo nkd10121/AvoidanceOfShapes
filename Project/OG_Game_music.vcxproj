@@ -110,13 +110,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>プロジェクトに追加すべきファイル_VC用;$(ProjectDir);$(ProjectDir)Efect;$(ProjectDir)Enemy;$(ProjectDir)Scene;$(ProjectDir)Util;$(ProjectDir)Object\Enemy\Circle;$(ProjectDir)Object\Enemy\Line;$(ProjectDir)Scene\Stage;$(ProjectDir)Manager;$(ProjectDir)MyDraw;$(ProjectDir)Object\Player;$(ProjectDir)Object</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>プロジェクトに追加すべきファイル_VC用;$(ProjectDir);$(ProjectDir)Effect;$(ProjectDir)Enemy;$(ProjectDir)Scene;$(ProjectDir)Util;$(ProjectDir)Object\Enemy\Circle;$(ProjectDir)Object\Enemy\Line;$(ProjectDir)Scene\Stage;$(ProjectDir)Manager;$(ProjectDir)MyDraw;$(ProjectDir)Object\Player;$(ProjectDir)Object</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>プロジェクトに追加すべきファイル_VC用;$(ProjectDir);$(ProjectDir)Efect;$(ProjectDir)Enemy;$(ProjectDir)Scene;$(ProjectDir)Util;$(ProjectDir)Object\Enemy\Circle;$(ProjectDir)Object\Enemy\Line;$(ProjectDir)Scene\Stage;$(ProjectDir)Manager;$(ProjectDir)MyDraw;$(ProjectDir)Object\Player;$(ProjectDir)Object</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>プロジェクトに追加すべきファイル_VC用;$(ProjectDir);$(ProjectDir)Effect;$(ProjectDir)Enemy;$(ProjectDir)Scene;$(ProjectDir)Util;$(ProjectDir)Object\Enemy\Circle;$(ProjectDir)Object\Enemy\Line;$(ProjectDir)Scene\Stage;$(ProjectDir)Manager;$(ProjectDir)MyDraw;$(ProjectDir)Object\Player;$(ProjectDir)Object</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -127,7 +127,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>プロジェクトに追加すべきファイル_VC用;$(ProjectDir);$(ProjectDir)Efect;$(ProjectDir)Enemy;$(ProjectDir)Scene;$(ProjectDir)Util;$(ProjectDir)Object\Enemy\Circle;$(ProjectDir)Object\Enemy\Line;$(ProjectDir)Scene\Stage;$(ProjectDir)Manager;$(ProjectDir)MyDraw;$(ProjectDir)Object\Player;$(ProjectDir)Object</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>プロジェクトに追加すべきファイル_VC用;$(ProjectDir);$(ProjectDir)Effect;$(ProjectDir)Enemy;$(ProjectDir)Scene;$(ProjectDir)Util;$(ProjectDir)Object\Enemy\Circle;$(ProjectDir)Object\Enemy\Line;$(ProjectDir)Scene\Stage;$(ProjectDir)Manager;$(ProjectDir)MyDraw;$(ProjectDir)Object\Player;$(ProjectDir)Object</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
     <Link>
@@ -135,19 +135,19 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>プロジェクトに追加すべきファイル_VC用;$(ProjectDir);$(ProjectDir)Efect;$(ProjectDir)Enemy;$(ProjectDir)Scene;$(ProjectDir)Util;$(ProjectDir)Object\Enemy\Circle;$(ProjectDir)Object\Enemy\Line;$(ProjectDir)Scene\Stage;$(ProjectDir)Manager;$(ProjectDir)MyDraw;$(ProjectDir)Object\Player;$(ProjectDir)Object</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>プロジェクトに追加すべきファイル_VC用;$(ProjectDir);$(ProjectDir)Effect;$(ProjectDir)Enemy;$(ProjectDir)Scene;$(ProjectDir)Util;$(ProjectDir)Object\Enemy\Circle;$(ProjectDir)Object\Enemy\Line;$(ProjectDir)Scene\Stage;$(ProjectDir)Manager;$(ProjectDir)MyDraw;$(ProjectDir)Object\Player;$(ProjectDir)Object</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Efect\AfterImagePlayer.cpp" />
-    <ClCompile Include="Efect\DashEfect.cpp" />
+    <ClCompile Include="Effect\AfterImagePlayer.cpp" />
+    <ClCompile Include="Effect\DashEfect.cpp" />
     <ClCompile Include="MyDraw\DrawBGparts.cpp" />
-    <ClCompile Include="Efect\Efects.cpp" />
+    <ClCompile Include="Effect\Efects.cpp" />
     <ClCompile Include="Object\Enemy\Line\EnemyBox.cpp" />
     <ClCompile Include="Object\Enemy\Circle\EnemyCircleScaling.cpp" />
-    <ClCompile Include="Efect\GoalEfect.cpp" />
+    <ClCompile Include="Effect\GoalEfect.cpp" />
     <ClCompile Include="Manager\GraphManager.cpp" />
-    <ClCompile Include="Efect\HitEfect.cpp" />
+    <ClCompile Include="Effect\HitEfect.cpp" />
     <ClCompile Include="Scene\Stage\Stage2.cpp" />
     <ClCompile Include="Scene\Stage\StageBase.cpp" />
     <ClCompile Include="Scene\Stage\Stage1.cpp" />
@@ -179,15 +179,15 @@
     <ClCompile Include="Util\Vec2.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Efect\AfterImagePlayer.h" />
-    <ClInclude Include="Efect\DashEfect.h" />
+    <ClInclude Include="Effect\AfterImagePlayer.h" />
+    <ClInclude Include="Effect\DashEfect.h" />
     <ClInclude Include="MyDraw\DrawBGparts.h" />
-    <ClInclude Include="Efect\Efects.h" />
+    <ClInclude Include="Effect\Efects.h" />
     <ClInclude Include="Object\Enemy\Line\EnemyBox.h" />
     <ClInclude Include="Object\Enemy\Circle\EnemyCircleScaling.h" />
-    <ClInclude Include="Efect\GoalEfect.h" />
+    <ClInclude Include="Effect\GoalEfect.h" />
     <ClInclude Include="Manager\GraphManager.h" />
-    <ClInclude Include="Efect\HitEfect.h" />
+    <ClInclude Include="Effect\HitEfect.h" />
     <ClInclude Include="Scene\Stage\Stage2.h" />
     <ClInclude Include="Scene\Stage\StageBase.h" />
     <ClInclude Include="Scene\Stage\Stage1.h" />

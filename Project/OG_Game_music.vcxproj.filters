@@ -41,19 +41,19 @@
     <ClCompile Include="Object\Goal.cpp">
       <Filter>Object</Filter>
     </ClCompile>
-    <ClCompile Include="Efect\AfterImagePlayer.cpp">
+    <ClCompile Include="Effect\AfterImagePlayer.cpp">
       <Filter>Effect</Filter>
     </ClCompile>
-    <ClCompile Include="Efect\DashEfect.cpp">
+    <ClCompile Include="Effect\DashEfect.cpp">
       <Filter>Effect</Filter>
     </ClCompile>
-    <ClCompile Include="Efect\Efects.cpp">
+    <ClCompile Include="Effect\Efects.cpp">
       <Filter>Effect</Filter>
     </ClCompile>
-    <ClCompile Include="Efect\GoalEfect.cpp">
+    <ClCompile Include="Effect\GoalEfect.cpp">
       <Filter>Effect</Filter>
     </ClCompile>
-    <ClCompile Include="Efect\HitEfect.cpp">
+    <ClCompile Include="Effect\HitEfect.cpp">
       <Filter>Effect</Filter>
     </ClCompile>
     <ClCompile Include="Manager\GraphManager.cpp">
@@ -155,19 +155,19 @@
     <ClInclude Include="Object\Goal.h">
       <Filter>Object</Filter>
     </ClInclude>
-    <ClInclude Include="Efect\AfterImagePlayer.h">
+    <ClInclude Include="Effect\AfterImagePlayer.h">
       <Filter>Effect</Filter>
     </ClInclude>
-    <ClInclude Include="Efect\DashEfect.h">
+    <ClInclude Include="Effect\DashEfect.h">
       <Filter>Effect</Filter>
     </ClInclude>
-    <ClInclude Include="Efect\Efects.h">
+    <ClInclude Include="Effect\Efects.h">
       <Filter>Effect</Filter>
     </ClInclude>
-    <ClInclude Include="Efect\GoalEfect.h">
+    <ClInclude Include="Effect\GoalEfect.h">
       <Filter>Effect</Filter>
     </ClInclude>
-    <ClInclude Include="Efect\HitEfect.h">
+    <ClInclude Include="Effect\HitEfect.h">
       <Filter>Effect</Filter>
     </ClInclude>
     <ClInclude Include="Manager\GraphManager.h">
